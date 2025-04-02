@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact-us.css">
+    <script defer src="scripts/contact-us.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- ...existing code for navigation/header... -->
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="center-content">
+        <section class="contact-form">
+            <h1>Contact Us</h1>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="location">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.4194154846813!3d37.7749297797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f0f0f0f0%3A0x0!2zMzfCsDQ2JzMwLjgiTiAxMjLCsDI1JzEwLjkiVw!5e0!3m2!1sen!2sus!4v1699999999999" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+        <nav>
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="contact-us.html">Contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
